@@ -1661,9 +1661,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 36
+Controller X Position: 22
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -1736,9 +1736,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 140
+Controller X Position: 126
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -1811,9 +1811,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 244
+Controller X Position: 230
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -1886,9 +1886,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 346
+Controller X Position: 332
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -1961,9 +1961,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 452
+Controller X Position: 438
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -2036,9 +2036,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 556
+Controller X Position: 542
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -2111,9 +2111,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 660
+Controller X Position: 646
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -2186,9 +2186,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Label
-Controller X Position: 764
+Controller X Position: 750
 Controller Y Position: 475
-Controller Width: 54
+Controller Width: 68
 Controller Height: 26
 OSC Prefix: 
 OSC Data Type: Integer
@@ -2403,7 +2403,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2478,7 +2478,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2628,7 +2628,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2703,7 +2703,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3003,7 +3003,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3078,7 +3078,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4053,7 +4053,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4128,7 +4128,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4203,7 +4203,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4278,7 +4278,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4353,7 +4353,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4428,7 +4428,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4503,7 +4503,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4578,7 +4578,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4653,7 +4653,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4728,7 +4728,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4803,7 +4803,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4878,7 +4878,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 38
+Picture Fore W: 37
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
