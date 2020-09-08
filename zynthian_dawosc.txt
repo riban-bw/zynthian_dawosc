@@ -2343,8 +2343,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm0a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -2403,7 +2403,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2418,8 +2418,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm0b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
@@ -2478,7 +2478,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2568,8 +2568,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm1a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -2628,7 +2628,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2643,8 +2643,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm1b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -2703,7 +2703,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2943,8 +2943,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm2a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -3003,7 +3003,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3018,8 +3018,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm2b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -3078,7 +3078,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3993,8 +3993,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm3a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4053,7 +4053,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4068,8 +4068,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm3b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4128,7 +4128,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4143,8 +4143,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm4a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4203,7 +4203,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4218,8 +4218,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm4b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4278,7 +4278,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4293,8 +4293,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm5a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4353,7 +4353,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4368,8 +4368,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm5b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4428,7 +4428,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4443,8 +4443,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm6a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4503,7 +4503,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4518,8 +4518,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm6b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4578,7 +4578,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4593,8 +4593,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm7a
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4653,7 +4653,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4668,8 +4668,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpm7b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4728,7 +4728,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4743,8 +4743,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpmA
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4803,7 +4803,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_64_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 46
+Picture Fore W: 44
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4818,8 +4818,8 @@ Controller Height: 242
 OSC Prefix: /mixer/dpmB
 OSC Data Type: Float
 OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
 OSC Prefix 2: 
 OSC Data Type 2: Float
 OSC CC #2 Min Value: 0
@@ -4878,7 +4878,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 34
+Picture Fore W: 32
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
