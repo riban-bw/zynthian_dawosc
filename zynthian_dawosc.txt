@@ -11,9 +11,9 @@ OSC Incoming Port:
 OSC Outgoing Port: 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 36
+Controller X Position: 22
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader0
 OSC Data Type: Float
@@ -2486,9 +2486,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 140
+Controller X Position: 126
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader1
 OSC Data Type: Float
@@ -2861,9 +2861,9 @@ Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwis
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 244
+Controller X Position: 230
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader2
 OSC Data Type: Float
@@ -3536,9 +3536,9 @@ Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwis
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 346
+Controller X Position: 332
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader3
 OSC Data Type: Float
@@ -3611,9 +3611,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 452
+Controller X Position: 438
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader4
 OSC Data Type: Float
@@ -3686,9 +3686,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 556
+Controller X Position: 542
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader5
 OSC Data Type: Float
@@ -3761,9 +3761,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 660
+Controller X Position: 646
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader6
 OSC Data Type: Float
@@ -3836,9 +3836,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 764
+Controller X Position: 750
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader7
 OSC Data Type: Float
@@ -3911,9 +3911,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 902
+Controller X Position: 888
 Controller Y Position: 226
-Controller Width: 46
+Controller Width: 60
 Controller Height: 242
 OSC Prefix: /mixer/fader16
 OSC Data Type: Float
