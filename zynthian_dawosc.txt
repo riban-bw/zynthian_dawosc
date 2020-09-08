@@ -12,7 +12,7 @@ OSC Outgoing Port:
 --- controller ---
 Controller Type: Fader - Vertical
 Controller X Position: 36
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 46
 Controller Height: 242
 OSC Prefix: /mixer/fader0
@@ -67,15 +67,15 @@ Allow Sliding: No
 Border Width: 0
 Fontname: Arial
 Fontsize: 20
-Fontangle: Horizontal
+Fontangle: Vertical
 Switch to Layout: 
 Direction: Normal
 Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
 Picture Fore W: 26
@@ -1349,8 +1349,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -1395,13 +1395,13 @@ CC #2: 0
 CC #2 Min: 0
 CC #2 Max: 127
 MIDI Send OFF Command: Yes
-Forecolor R: 150
-Forecolor G: 0
-Forecolor B: 0
+Forecolor R: 0
+Forecolor G: 255
+Forecolor B: 128
 Forecolor O: 255
-Backcolor R: 80
-Backcolor G: 80
-Backcolor B: 80
+Backcolor R: 0
+Backcolor G: 128
+Backcolor B: 0
 Backcolor O: 255
 Textcolor R: 255
 Textcolor G: 255
@@ -1414,7 +1414,7 @@ Bordercolor O: 255
 Screen Label: 
 Front-Back: 18
 Allow Sliding: No
-Border Width: 2
+Border Width: 0
 Fontname: Arial
 Fontsize: 10
 Fontangle: Horizontal
@@ -2324,7 +2324,7 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: zynthlogo_back.png
+Picture Back: zynthian_dawosc_Button - Momentary_31_Back.png
 Picture Fore: 
 Picture Back Org: zynthlogo_back.png
 Picture Fore Org: 
@@ -2400,10 +2400,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 55
+Picture Fore W: 39
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2475,11 +2475,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 55
-Picture Fore H: 240
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -2487,7 +2487,7 @@ Sysex:
 --- controller ---
 Controller Type: Fader - Vertical
 Controller X Position: 140
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 46
 Controller Height: 242
 OSC Prefix: /mixer/fader1
@@ -2549,8 +2549,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
 Picture Fore W: 26
@@ -2625,11 +2625,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 118
-Picture Fore H: 103
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -2640,7 +2640,7 @@ Controller X Position: 189
 Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
-OSC Prefix: /mixer/dpmfader_back
+OSC Prefix: /mixer/dpm1b
 OSC Data Type: Float
 OSC Velocity Sensitive: No
 OSC CC #1 OFF/Min Value: 0
@@ -2700,11 +2700,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 123
-Picture Fore H: 117
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -2774,8 +2774,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -2849,8 +2849,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -2924,11 +2924,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
-Picture Fore W: 25
+Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3000,10 +3000,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 85
+Picture Fore W: 39
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3075,11 +3075,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 144
-Picture Fore H: 122
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -3149,8 +3149,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -3224,8 +3224,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -3299,8 +3299,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -3374,8 +3374,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -3449,8 +3449,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -3524,8 +3524,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: pan_back.png
-Picture Fore: pan_fore.png
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
 Picture Fore W: 83
@@ -3599,11 +3599,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
-Picture Fore W: 24
+Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3674,11 +3674,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
-Picture Fore W: 25
+Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3749,11 +3749,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
-Picture Fore W: 24
+Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3824,11 +3824,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
-Picture Fore W: 24
+Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3899,11 +3899,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: fader_fore.png
-Picture Fore W: 24
+Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3913,7 +3913,7 @@ Sysex:
 Controller Type: Fader - Vertical
 Controller X Position: 902
 Controller Y Position: 226
-Controller Width: 60
+Controller Width: 46
 Controller Height: 242
 OSC Prefix: /mixer/fader16
 OSC Data Type: Float
@@ -3974,12 +3974,12 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: fader_back.png
-Picture Fore: main_fader_fore.png
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_53_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: main_fader_fore.png
-Picture Fore W: 52
-Picture Fore H: 40
+Picture Fore W: 26
+Picture Fore H: 37
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -3987,7 +3987,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 388
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm3a
@@ -4050,10 +4050,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 103
+Picture Fore W: 39
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4062,7 +4062,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 395
-Controller Y Position: 230
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm3b
@@ -4125,11 +4125,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 144
-Picture Fore H: 236
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4137,7 +4137,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 494
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm4a
@@ -4200,11 +4200,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 204
-Picture Fore H: 167
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4212,7 +4212,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 501
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm4b
@@ -4275,11 +4275,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 208
-Picture Fore H: 234
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4287,7 +4287,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 598
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm5a
@@ -4350,11 +4350,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 208
-Picture Fore H: 230
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4362,7 +4362,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 605
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm5b
@@ -4425,11 +4425,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 284
-Picture Fore H: 227
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4437,7 +4437,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 702
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm6a
@@ -4500,11 +4500,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 208
-Picture Fore H: 230
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4512,7 +4512,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 709
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm6b
@@ -4575,11 +4575,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 208
-Picture Fore H: 230
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4587,7 +4587,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 806
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm7a
@@ -4650,11 +4650,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 288
-Picture Fore H: 230
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4662,7 +4662,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 813
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpm7b
@@ -4725,11 +4725,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 288
-Picture Fore H: 288
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4737,7 +4737,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 964
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpmA
@@ -4800,11 +4800,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 395
-Picture Fore H: 233
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
@@ -4812,7 +4812,7 @@ Sysex:
 --- controller ---
 Controller Type: VU - Vertical
 Controller X Position: 971
-Controller Y Position: 228
+Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
 OSC Prefix: /mixer/dpmB
@@ -4875,11 +4875,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: vu_reg.png
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 533
-Picture Fore H: 395
+Picture Fore W: 39
+Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
