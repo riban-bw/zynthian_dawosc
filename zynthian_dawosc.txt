@@ -76,8 +76,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -1351,8 +1351,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -2324,9 +2324,9 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: zynthlogo_back.jpg
+Picture Back: zynthlogo_back.png
 Picture Fore: 
-Picture Back Org: Zynthlogo.jpg
+Picture Back Org: zynthlogo_back.png
 Picture Fore Org: 
 Picture Fore W: 88
 Picture Fore H: 77
@@ -2400,7 +2400,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 55
@@ -2475,7 +2475,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 55
@@ -2551,8 +2551,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 26
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -2625,7 +2625,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 118
@@ -2640,7 +2640,7 @@ Controller X Position: 189
 Controller Y Position: 226
 Controller Width: 5
 Controller Height: 242
-OSC Prefix: /mixer/dpm1b
+OSC Prefix: /mixer/dpmfader_back
 OSC Data Type: Float
 OSC Velocity Sensitive: No
 OSC CC #1 OFF/Min Value: 0
@@ -2700,7 +2700,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 123
@@ -2776,8 +2776,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -2851,8 +2851,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -2926,8 +2926,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 25
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -3000,7 +3000,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 85
@@ -3075,7 +3075,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 144
@@ -3151,8 +3151,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -3226,8 +3226,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -3301,8 +3301,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -3376,8 +3376,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -3451,8 +3451,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -3526,8 +3526,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: pan_back.png
 Picture Fore: pan_fore.png
-Picture Back Org: knob_back_2.png
-Picture Fore Org: chicken_300.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
 Picture Fore W: 83
 Picture Fore H: 83
 Rounded Corners: Use Preferences Value
@@ -3601,8 +3601,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 24
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -3676,8 +3676,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 25
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -3751,8 +3751,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 24
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -3826,8 +3826,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 24
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -3901,8 +3901,8 @@ Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
 Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_blue.png
+Picture Back Org: fader_back.png
+Picture Fore Org: fader_fore.png
 Picture Fore W: 24
 Picture Fore H: 37
 Rounded Corners: Use Preferences Value
@@ -3975,9 +3975,9 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: fader_back.png
-Picture Fore: fader_fore.png
-Picture Back Org: 1B.png
-Picture Fore Org: knob_red.png
+Picture Fore: main_fader_fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: main_fader_fore.png
 Picture Fore W: 52
 Picture Fore H: 40
 Rounded Corners: Use Preferences Value
@@ -4050,7 +4050,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 103
@@ -4125,7 +4125,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 144
@@ -4200,7 +4200,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 204
@@ -4275,7 +4275,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 208
@@ -4350,7 +4350,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 208
@@ -4425,7 +4425,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 284
@@ -4500,7 +4500,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 208
@@ -4575,7 +4575,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 208
@@ -4650,7 +4650,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 288
@@ -4725,7 +4725,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 288
@@ -4800,7 +4800,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 395
@@ -4875,7 +4875,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: VU_Vertical_Fore.png
+Picture Fore: vu_reg.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
 Picture Fore W: 533
