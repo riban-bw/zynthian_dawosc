@@ -1,0 +1,4886 @@
+Version: 4.02
+Layout Name: Mixer 9-16
+Grid Size: 415
+Screen Width: 1024
+Screen Height: 527
+Backcolor R: 51
+Backcolor G: 0
+Backcolor B: 26
+Background Picture: mixerdividers.png
+OSC Incoming Port: 
+OSC Outgoing Port: 
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 18
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader8
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 0
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 0
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 22
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo8
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 1
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 22
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute8
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 2
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 126
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo9
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 3
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 230
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo10
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 4
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 334
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo11
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 5
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 438
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo12
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 6
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 542
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo13
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 7
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 646
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo14
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 8
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 750
+Controller Y Position: 4
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/solo15
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 9
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 126
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute9
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 10
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 230
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute10
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 11
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 334
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute11
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 12
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 438
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute12
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 13
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 542
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute13
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 14
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 646
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute14
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 15
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 750
+Controller Y Position: 57
+Controller Width: 77
+Controller Height: 39
+OSC Prefix: /mixer/mute15
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 16
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 77
+Picture Fore H: 39
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 16
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance8
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 17
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: OSC Repeater - 10 Seconds
+Controller X Position: 998
+Controller Y Position: 2
+Controller Width: 20
+Controller Height: 6
+OSC Prefix: /mixer/heartbeat
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 255
+Forecolor B: 128
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 128
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 18
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 20
+Picture Fore H: 6
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 876
+Controller Y Position: 87
+Controller Width: 57
+Controller Height: 25
+OSC Prefix: /mixer/solo16
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value:
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value:
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value:
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value:
+OSC Send OFF Command: No
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 128
+Forecolor B: 192
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Solo
+Front-Back: 19
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 57
+Picture Fore H: 25
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 934
+Controller Y Position: 87
+Controller Width: 54
+Controller Height: 25
+OSC Prefix: /mixer/mute16
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value:
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value:
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value:
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value:
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 128
+Forecolor G: 128
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Mute
+Front-Back: 20
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 54
+Picture Fore H: 25
+Rounded Corners: 12
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 888
+Controller Y Position: 473
+Controller Width: 89
+Controller Height: 37
+OSC Prefix: 
+OSC Data Type: Text
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 1-8
+Front-Back: 21
+Allow Sliding: No
+Border Width: 2
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: Mixer 1-8
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 89
+Picture Fore H: 37
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 22
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 9
+Front-Back: 22
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 126
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 10
+Front-Back: 23
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 230
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 11
+Front-Back: 24
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 332
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 12
+Front-Back: 25
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 438
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 13
+Front-Back: 26
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 542
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 14
+Front-Back: 27
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 646
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 15
+Front-Back: 28
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 750
+Controller Y Position: 475
+Controller Width: 68
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 16
+Front-Back: 29
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 30
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 28
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 887
+Controller Y Position: 2
+Controller Width: 88
+Controller Height: 77
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 30
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Button - Momentary_31_Back.png
+Picture Fore: 
+Picture Back Org: zynthlogo_back.png
+Picture Fore Org: 
+Picture Fore W: 88
+Picture Fore H: 77
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 78
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm8a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 31
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 85
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm8b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 255
+Forecolor G: 255
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 32
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 122
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader9
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 33
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 182
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm9a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 34
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 189
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm9b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 35
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 120
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance9
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 36
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 224
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance10
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 37
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 226
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader10
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 38
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 286
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm10a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 39
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 293
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm10b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 40
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 328
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance11
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 41
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 432
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance12
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 42
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 536
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance13
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 43
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 640
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance14
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 44
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 744
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance15
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 45
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Knob - Pan
+Controller X Position: 884
+Controller Y Position: 118
+Controller Width: 93
+Controller Height: 93
+OSC Prefix: /mixer/balance16
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -1
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 0
+Forecolor G: 90
+Forecolor B: 255
+Forecolor O: 255
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 46
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Knob - Pan_18_Back.png
+Picture Fore: zynthian_dawosc_Knob - Pan_18_Fore.png
+Picture Back Org: pan_back.png
+Picture Fore Org: pan_fore.png
+Picture Fore W: 83
+Picture Fore H: 83
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 328
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader11
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 47
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 432
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader12
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 48
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 538
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader13
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 49
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 642
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader14
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 50
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 746
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader15
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 51
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_1_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: channel_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 884
+Controller Y Position: 226
+Controller Width: 60
+Controller Height: 242
+OSC Prefix: /mixer/fader16
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 52
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 20
+Fontangle: Vertical
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: zynthian_dawosc_Fader - Vertical_1_Back.png
+Picture Fore: zynthian_dawosc_Fader - Vertical_53_Fore.png
+Picture Back Org: fader_back.png
+Picture Fore Org: main_fader_knob.png
+Picture Fore W: 40
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 388
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm11a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 53
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 395
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm11b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 54
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 494
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm12a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 55
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 501
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm12b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 56
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 598
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm13a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 57
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 605
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm13b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 58
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 702
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm14a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 59
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 709
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm14b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 60
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 806
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm15a
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 61
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 813
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpm15b
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 62
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 944
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpmA
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 63
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_64_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 39
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: VU - Vertical
+Controller X Position: 951
+Controller Y Position: 226
+Controller Width: 5
+Controller Height: 242
+OSC Prefix: /mixer/dpmB
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: -50
+OSC CC #1 ON/Max Value: 0
+OSC Prefix 2: 
+OSC Data Type 2: Float
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 64
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
+Picture Back Org: 
+Picture Fore Org: vu_reg.png
+Picture Fore W: 27
+Picture Fore H: 242
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
