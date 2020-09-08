@@ -11,7 +11,7 @@ OSC Incoming Port:
 OSC Outgoing Port: 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 22
+Controller X Position: 18
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -2403,7 +2403,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2478,7 +2478,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2486,7 +2486,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 126
+Controller X Position: 122
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -2628,7 +2628,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2703,7 +2703,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -2861,7 +2861,7 @@ Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwis
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 230
+Controller X Position: 226
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -3003,7 +3003,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3078,7 +3078,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -3536,7 +3536,7 @@ Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwis
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 332
+Controller X Position: 328
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -3611,7 +3611,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 438
+Controller X Position: 432
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -3686,7 +3686,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 542
+Controller X Position: 538
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -3761,7 +3761,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 646
+Controller X Position: 642
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -3836,7 +3836,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 750
+Controller X Position: 746
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -3911,7 +3911,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 888
+Controller X Position: 884
 Controller Y Position: 226
 Controller Width: 60
 Controller Height: 242
@@ -4053,7 +4053,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4128,7 +4128,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4203,7 +4203,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4278,7 +4278,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4353,7 +4353,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4428,7 +4428,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4503,7 +4503,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4578,7 +4578,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4653,7 +4653,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4728,7 +4728,7 @@ Picture Back:
 Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4800,10 +4800,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: 
+Picture Fore: zynthian_dawosc_VU - Vertical_64_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 48
+Picture Fore W: 46
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4875,10 +4875,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: 
+Picture Fore: zynthian_dawosc_VU - Vertical_32_Fore.png
 Picture Back Org: 
 Picture Fore Org: vu_reg.png
-Picture Fore W: 36
+Picture Fore W: 34
 Picture Fore H: 242
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
