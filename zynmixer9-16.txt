@@ -7,8 +7,8 @@ Backcolor R: 51
 Backcolor G: 0
 Backcolor B: 26
 Background Picture: mixerdividers.png
-OSC Incoming Port: 1370
-OSC Outgoing Port: 1370
+OSC Incoming Port: 
+OSC Outgoing Port: 
 --- controller ---
 Controller Type: Fader - Vertical
 Controller X Position: 18
