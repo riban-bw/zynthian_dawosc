@@ -3,9 +3,9 @@ Layout Name: Mixer 1-8
 Grid Size: 415
 Screen Width: 1024
 Screen Height: 527
-Backcolor R: 26
-Backcolor G: 9
-Backcolor B: 9
+Backcolor R: 34
+Backcolor G: 0
+Backcolor B: 0
 Background Picture: 
 OSC Incoming Port: 
 OSC Outgoing Port: 
@@ -46,25 +46,25 @@ CC #2 Min: 0
 CC #2 Max: 127
 MIDI Send OFF Command: Yes
 Forecolor R: 0
-Forecolor G: 128
-Forecolor B: 192
+Forecolor G: 0
+Forecolor B: 255
 Forecolor O: 255
-Backcolor R: 80
-Backcolor G: 80
-Backcolor B: 80
+Backcolor R: 63
+Backcolor G: 63
+Backcolor B: 63
 Backcolor O: 255
-Textcolor R: 255
-Textcolor G: 255
-Textcolor B: 255
+Textcolor R: 191
+Textcolor G: 191
+Textcolor B: 191
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 0
 Allow Sliding: No
-Border Width: 1
+Border Width: 2
 Fontname: Arial
 Fontsize: 20
 Fontangle: Horizontal
@@ -74,10 +74,10 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
 Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
@@ -124,7 +124,7 @@ Forecolor R: 128
 Forecolor G: 128
 Forecolor B: 0
 Forecolor O: 255
-Backcolor R: 80
+Backcolor R: 63
 Backcolor G: 80
 Backcolor B: 80
 Backcolor O: 255
@@ -132,11 +132,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 1
 Allow Sliding: No
 Border Width: 2
@@ -149,10 +149,10 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
 Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
@@ -161,9 +161,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 126
+Controller X Position: 128
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo1
 OSC Data Type: Integer
@@ -199,7 +199,7 @@ Forecolor R: 0
 Forecolor G: 128
 Forecolor B: 192
 Forecolor O: 255
-Backcolor R: 80
+Backcolor R: 63
 Backcolor G: 80
 Backcolor B: 80
 Backcolor O: 255
@@ -207,11 +207,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 2
 Allow Sliding: No
 Border Width: 2
@@ -224,11 +224,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -236,9 +236,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 230
+Controller X Position: 232
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo2
 OSC Data Type: Integer
@@ -282,11 +282,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 3
 Allow Sliding: No
 Border Width: 2
@@ -299,11 +299,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -311,9 +311,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 334
+Controller X Position: 336
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo3
 OSC Data Type: Integer
@@ -357,11 +357,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 4
 Allow Sliding: No
 Border Width: 2
@@ -374,11 +374,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -386,9 +386,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 438
+Controller X Position: 440
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo4
 OSC Data Type: Integer
@@ -432,11 +432,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 5
 Allow Sliding: No
 Border Width: 2
@@ -449,11 +449,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -461,9 +461,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 542
+Controller X Position: 544
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo5
 OSC Data Type: Integer
@@ -507,11 +507,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 6
 Allow Sliding: No
 Border Width: 2
@@ -524,11 +524,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -536,9 +536,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 646
+Controller X Position: 648
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo6
 OSC Data Type: Integer
@@ -582,11 +582,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 7
 Allow Sliding: No
 Border Width: 2
@@ -599,11 +599,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -611,9 +611,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 750
+Controller X Position: 752
 Controller Y Position: 10
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/solo7
 OSC Data Type: Integer
@@ -657,11 +657,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 8
 Allow Sliding: No
 Border Width: 2
@@ -674,11 +674,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_1_Back.png
+Picture Fore: zynmixer1-8_Button - Push_1_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -686,9 +686,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 126
+Controller X Position: 128
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute1
 OSC Data Type: Integer
@@ -732,11 +732,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 9
 Allow Sliding: No
 Border Width: 2
@@ -749,11 +749,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -761,9 +761,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 230
+Controller X Position: 232
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute2
 OSC Data Type: Integer
@@ -803,15 +803,15 @@ Backcolor R: 80
 Backcolor G: 80
 Backcolor B: 80
 Backcolor O: 255
-Textcolor R: 255
-Textcolor G: 255
-Textcolor B: 255
+Textcolor R: 207
+Textcolor G: 207
+Textcolor B: 207
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 10
 Allow Sliding: No
 Border Width: 2
@@ -824,11 +824,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -836,9 +836,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 334
+Controller X Position: 336
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute3
 OSC Data Type: Integer
@@ -882,11 +882,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 11
 Allow Sliding: No
 Border Width: 2
@@ -899,11 +899,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -911,9 +911,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 438
+Controller X Position: 440
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute4
 OSC Data Type: Integer
@@ -957,11 +957,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 12
 Allow Sliding: No
 Border Width: 2
@@ -974,11 +974,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -986,9 +986,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 542
+Controller X Position: 544
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute5
 OSC Data Type: Integer
@@ -1032,11 +1032,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 13
 Allow Sliding: No
 Border Width: 2
@@ -1049,11 +1049,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -1061,9 +1061,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 646
+Controller X Position: 648
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute6
 OSC Data Type: Integer
@@ -1107,11 +1107,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 14
 Allow Sliding: No
 Border Width: 2
@@ -1124,11 +1124,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -1136,9 +1136,9 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 750
+Controller X Position: 752
 Controller Y Position: 60
-Controller Width: 77
+Controller Width: 78
 Controller Height: 39
 OSC Prefix: /mixer/mute7
 OSC Data Type: Integer
@@ -1182,11 +1182,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 15
 Allow Sliding: No
 Border Width: 2
@@ -1199,11 +1199,11 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 77
+Picture Back: zynmixer1-8_Button - Push_2_Back.png
+Picture Fore: zynmixer1-8_Button - Push_2_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
+Picture Fore W: 78
 Picture Fore H: 39
 Rounded Corners: 12
 Use Other Controller For Value: 
@@ -1261,7 +1261,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 16
 Allow Sliding: No
 Border Width: 0
@@ -1278,8 +1278,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -1361,7 +1361,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Momentary
-Controller X Position: 860
+Controller X Position: 862
 Controller Y Position: 82
 Controller Width: 57
 Controller Height: 28
@@ -1407,11 +1407,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Solo
+Screen Label: 
 Front-Back: 18
 Allow Sliding: No
 Border Width: 2
@@ -1424,10 +1424,10 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
+Picture Back: zynmixer1-8_Button - Momentary_19_Back.png
+Picture Fore: zynmixer1-8_Button - Momentary_19_Fore.png
+Picture Back Org: Solo_Back.png
+Picture Fore Org: Solo_Fore.png
 Picture Fore W: 57
 Picture Fore H: 28
 Rounded Corners: 12
@@ -1436,7 +1436,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 946
+Controller X Position: 944
 Controller Y Position: 82
 Controller Width: 54
 Controller Height: 28
@@ -1482,11 +1482,11 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
-Screen Label: Mute
+Screen Label: 
 Front-Back: 19
 Allow Sliding: No
 Border Width: 2
@@ -1499,10 +1499,10 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
+Picture Back: zynmixer1-8_Button - Push_20_Back.png
+Picture Fore: zynmixer1-8_Button - Push_20_Fore.png
+Picture Back Org: Mute_Back.png
+Picture Fore Org: Mute_Fore.png
 Picture Fore W: 54
 Picture Fore H: 28
 Rounded Corners: 12
@@ -1557,9 +1557,9 @@ Textcolor R: 255
 Textcolor G: 255
 Textcolor B: 255
 Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
+Bordercolor R: 143
+Bordercolor G: 143
+Bordercolor B: 143
 Bordercolor O: 255
 Screen Label: 9-16
 Front-Back: 20
@@ -2611,7 +2611,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 34
 Allow Sliding: No
 Border Width: 0
@@ -2624,12 +2624,12 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: 
-Picture Fore: 
+Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
+Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -2686,7 +2686,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 35
 Allow Sliding: No
 Border Width: 0
@@ -2703,8 +2703,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -2986,7 +2986,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 39
 Allow Sliding: No
 Border Width: 0
@@ -3003,8 +3003,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -3061,7 +3061,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 40
 Allow Sliding: No
 Border Width: 0
@@ -3078,8 +3078,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -3136,7 +3136,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 41
 Allow Sliding: No
 Border Width: 0
@@ -3153,8 +3153,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -3211,7 +3211,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 42
 Allow Sliding: No
 Border Width: 0
@@ -3228,8 +3228,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -3286,7 +3286,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 43
 Allow Sliding: No
 Border Width: 0
@@ -3303,8 +3303,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -3361,7 +3361,7 @@ Bordercolor R: 255
 Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
-Screen Label: Pan
+Screen Label: 
 Front-Back: 44
 Allow Sliding: No
 Border Width: 0
@@ -3378,8 +3378,8 @@ Picture Back: zynmixer1-8_Knob - Pan_17_Back.png
 Picture Fore: zynmixer1-8_Knob - Pan_17_Fore.png
 Picture Back Org: pan_back.png
 Picture Fore Org: pan_fore.png
-Picture Fore W: 91
-Picture Fore H: 91
+Picture Fore W: 84
+Picture Fore H: 84
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: This controller sends the MIDI message 97 (INC) when you spin it clockwise. It sends the MIDI message 96 (DEC) when you spin it counter-clockwise.
@@ -3825,7 +3825,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: zynmixer1-8_Fader - Vertical_32_Back.png
-Picture Fore: zynmixer1-8_Fader - Vertical_32_Fore.png
+Picture Fore: zynmixer1-8_Fader - Vertical_51_Fore.png
 Picture Back Org: fader_back.png
 Picture Fore Org: main_fader_knob.png
 Picture Fore W: 29
@@ -4803,7 +4803,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4878,7 +4878,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -4953,7 +4953,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5028,7 +5028,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5103,7 +5103,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5178,7 +5178,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5253,7 +5253,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5328,7 +5328,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5403,7 +5403,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5478,7 +5478,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5553,7 +5553,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 124
+Picture Fore W: 77
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5703,7 +5703,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5778,7 +5778,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5853,7 +5853,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -5928,7 +5928,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -6003,7 +6003,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -6078,7 +6078,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
@@ -6153,7 +6153,7 @@ Picture Back:
 Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: 
-Picture Fore W: 119
+Picture Fore W: 72
 Picture Fore H: 200
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
