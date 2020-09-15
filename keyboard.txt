@@ -1,0 +1,911 @@
+Version: 4.02
+Layout Name: keyboard
+Grid Size: 416
+Screen Width: 1440
+Screen Height: 790
+Backcolor R: 0
+Backcolor G: 0
+Backcolor B: 0
+Background Picture: 
+OSC Incoming Port: 
+OSC Outgoing Port: 
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 2
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/60
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 60
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 0
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 115
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/62
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 62
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 1
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 226
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/64
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 64
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 2
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 337
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/65
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 65
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 3
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 450
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/67
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 67
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 4
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 562
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/69
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 69
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 5
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 673
+Controller Y Position: 259
+Controller Width: 110
+Controller Height: 528
+OSC Prefix: /midi/noteon/61
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 71
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 239
+Forecolor G: 239
+Forecolor B: 239
+Forecolor O: 255
+Backcolor R: 255
+Backcolor G: 255
+Backcolor B: 255
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 6
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 528
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 70
+Controller Y Position: 258
+Controller Width: 84
+Controller Height: 389
+OSC Prefix: /midi/noteon/61
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 61
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 63
+Forecolor G: 63
+Forecolor B: 63
+Forecolor O: 255
+Backcolor R: 15
+Backcolor G: 15
+Backcolor B: 15
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 7
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 84
+Picture Fore H: 389
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 183
+Controller Y Position: 259
+Controller Width: 84
+Controller Height: 389
+OSC Prefix: /midi/noteon/63
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 63
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 63
+Forecolor G: 63
+Forecolor B: 63
+Forecolor O: 255
+Backcolor R: 15
+Backcolor G: 15
+Backcolor B: 15
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 8
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 84
+Picture Fore H: 389
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 408
+Controller Y Position: 259
+Controller Width: 84
+Controller Height: 389
+OSC Prefix: /midi/noteon/66
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 66
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 63
+Forecolor G: 63
+Forecolor B: 63
+Forecolor O: 255
+Backcolor R: 15
+Backcolor G: 15
+Backcolor B: 15
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 9
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 84
+Picture Fore H: 389
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 518
+Controller Y Position: 259
+Controller Width: 84
+Controller Height: 389
+OSC Prefix: /midi/noteon/68
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 68
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 63
+Forecolor G: 63
+Forecolor B: 63
+Forecolor O: 255
+Backcolor R: 15
+Backcolor G: 15
+Backcolor B: 15
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 10
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 84
+Picture Fore H: 389
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 627
+Controller Y Position: 258
+Controller Width: 84
+Controller Height: 389
+OSC Prefix: /midi/noteon/70
+OSC Data Type: Integer
+OSC Velocity Sensitive: Reverse
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 127
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 70
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 63
+Forecolor G: 63
+Forecolor B: 63
+Forecolor O: 255
+Backcolor R: 15
+Backcolor G: 15
+Backcolor B: 15
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 11
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 84
+Picture Fore H: 389
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
