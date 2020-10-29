@@ -7,83 +7,8 @@ Backcolor R: 15
 Backcolor G: 15
 Backcolor B: 15
 Background Picture: 
-OSC Incoming Port: 
-OSC Outgoing Port: 
---- controller ---
-Controller Type: Label
-Controller X Position: 285
-Controller Y Position: 8
-Controller Width: 120
-Controller Height: 98
-OSC Prefix: 
-OSC Data Type: Integer
-OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
-OSC Prefix 2: 
-OSC Data Type 2: Integer
-OSC CC #2 Min Value: 0
-OSC CC #2 Max Value: 1
-OSC Prefix 3: 
-OSC Data Type 3: Integer
-OSC CC #3 Min Value: 0
-OSC CC #3 Max Value: 1
-OSC Prefix 4: 
-OSC Data Type 4: Integer
-OSC CC #4 Min Value: 0
-OSC CC #4 Max Value: 1
-OSC Send OFF Command: Yes
-MIDI Channel: 0
-Note/CC #: 0
-MIDI Data Type: Note
-MIDI Velocity Sensitive: No
-CC #1 OFF/Min: 0
-CC #1 ON/Max: 127
-MIDI Channel 2: 0
-MIDI Data Type 2: Note
-CC #2: 0
-CC #2 Min: 0
-CC #2 Max: 127
-MIDI Send OFF Command: Yes
-Forecolor R: 0
-Forecolor G: 0
-Forecolor B: 0
-Forecolor O: 255
-Backcolor R: 0
-Backcolor G: 0
-Backcolor B: 0
-Backcolor O: 255
-Textcolor R: 255
-Textcolor G: 255
-Textcolor B: 255
-Textcolor O: 255
-Bordercolor R: 64
-Bordercolor G: 0
-Bordercolor B: 0
-Bordercolor O: 255
-Screen Label: 
-Front-Back: 0
-Allow Sliding: No
-Border Width: 5
-Fontname: Arial
-Fontsize: 10
-Fontangle: Horizontal
-Switch to Layout: 
-Direction: Normal
-Touch Mode: Normal
-Show All Incoming MIDI Messages: No
-Show All Incoming OSC Messages: No
-Show Value: No
-Picture Back: 
-Picture Fore: 
-Picture Back Org: 
-Picture Fore Org: 
-Picture Fore W: 188
-Picture Fore H: 188
-Rounded Corners: Use Preferences Value
-Use Other Controller For Value: 
-Sysex: 
-
+OSC Incoming Port: 8080
+OSC Outgoing Port: 8001
 --- controller ---
 Controller Type: Fader - Vertical
 Controller X Position: 4
@@ -108,9 +33,84 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
+MIDI Channel: 1
 Note/CC #: 70
-MIDI Data Type: Note
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 15
+Backcolor G: 15
+Backcolor B: 15
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 0
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: Drawbar_Brn.png
+Picture Fore W: 34
+Picture Fore H: 277
+Rounded Corners: 6
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader - Vertical
+Controller X Position: 50
+Controller Y Position: 0
+Controller Width: 60
+Controller Height: 495
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 71
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -150,7 +150,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_2_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Brn.png
 Picture Fore W: 34
@@ -161,7 +161,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 50
+Controller X Position: 96
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -183,9 +183,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 71
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 72
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -225,18 +225,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_3_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Brn.png
-Picture Fore W: 36
-Picture Fore H: 276
+Picture Fore Org: Drawbar_Wht.png
+Picture Fore W: 32
+Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 94
+Controller X Position: 142
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -258,9 +258,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 72
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 73
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -300,7 +300,7 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_4_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Wht.png
 Picture Fore W: 32
@@ -311,7 +311,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 140
+Controller X Position: 188
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -333,9 +333,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 73
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 74
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -375,18 +375,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_4_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 32
-Picture Fore H: 277
+Picture Fore Org: Drawbar_Black.png
+Picture Fore W: 35
+Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 184
+Controller X Position: 234
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -408,9 +408,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 74
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 75
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -450,18 +450,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_6_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 35
-Picture Fore H: 276
+Picture Fore Org: Drawbar_Wht.png
+Picture Fore W: 32
+Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 230
+Controller X Position: 280
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -483,9 +483,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 75
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 76
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -525,18 +525,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_4_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 32
-Picture Fore H: 277
+Picture Fore Org: Drawbar_Black.png
+Picture Fore W: 35
+Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 274
+Controller X Position: 326
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -558,9 +558,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 76
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 77
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -600,10 +600,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_8_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 34
+Picture Fore W: 35
 Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
@@ -611,8 +611,8 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 318
-Controller Y Position: 0
+Controller X Position: 372
+Controller Y Position: 2
 Controller Width: 60
 Controller Height: 495
 OSC Prefix: 
@@ -633,9 +633,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 77
-MIDI Data Type: Note
+MIDI Channel: 1
+Note/CC #: 78
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -675,18 +675,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_8_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 34
-Picture Fore H: 276
+Picture Fore Org: Drawbar_Wht.png
+Picture Fore W: 32
+Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 364
+Controller X Position: 461
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -708,9 +708,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 2
-Note/CC #: 78
-MIDI Data Type: Note
+MIDI Channel: 3
+Note/CC #: 70
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -750,18 +750,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_10_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 34
-Picture Fore H: 277
+Picture Fore Org: Drawbar_Black.png
+Picture Fore W: 35
+Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 462
+Controller X Position: 507
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -784,8 +784,8 @@ OSC CC #4 Min Value:
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
 MIDI Channel: 3
-Note/CC #: 70
-MIDI Data Type: Note
+Note/CC #: 71
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -825,18 +825,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_11_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 34
-Picture Fore H: 277
+Picture Fore W: 35
+Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 506
+Controller X Position: 596
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -858,9 +858,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 3
-Note/CC #: 71
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 70
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -900,10 +900,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_12_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 32
+Picture Fore Org: Drawbar_Brn.png
+Picture Fore W: 34
 Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
@@ -911,7 +911,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 596
+Controller X Position: 642
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -933,9 +933,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 70
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 71
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -975,10 +975,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_13_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Brn.png
-Picture Fore W: 32
+Picture Fore W: 34
 Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
@@ -986,7 +986,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 640
+Controller X Position: 688
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1008,9 +1008,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 71
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 72
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1050,18 +1050,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_14_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Brn.png
+Picture Fore Org: Drawbar_Wht.png
 Picture Fore W: 32
-Picture Fore H: 276
+Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 686
+Controller X Position: 734
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1083,9 +1083,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 72
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 73
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1125,10 +1125,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_15_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 33
+Picture Fore W: 32
 Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
@@ -1136,7 +1136,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 730
+Controller X Position: 780
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1158,9 +1158,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 73
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 74
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1200,18 +1200,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_4_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 32
-Picture Fore H: 277
+Picture Fore Org: Drawbar_Black.png
+Picture Fore W: 35
+Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 776
+Controller X Position: 826
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1233,9 +1233,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 74
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 75
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1275,18 +1275,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_6_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 35
-Picture Fore H: 276
+Picture Fore Org: Drawbar_Wht.png
+Picture Fore W: 32
+Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 820
+Controller X Position: 872
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1308,9 +1308,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 75
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 76
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1350,10 +1350,10 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_18_Fore.png
+Picture Fore: 
 Picture Back Org: 
-Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 34
+Picture Fore Org: Drawbar_Black.png
+Picture Fore W: 35
 Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
@@ -1361,7 +1361,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 866
+Controller X Position: 918
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1383,9 +1383,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 76
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 77
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1425,18 +1425,18 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_19_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 31
-Picture Fore H: 277
+Picture Fore W: 35
+Picture Fore H: 276
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
 
 --- controller ---
 Controller Type: Fader - Vertical
-Controller X Position: 910
+Controller X Position: 964
 Controller Y Position: 0
 Controller Width: 60
 Controller Height: 495
@@ -1458,9 +1458,9 @@ OSC Data Type 4:
 OSC CC #4 Min Value: 
 OSC CC #4 Max Value: 
 OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 77
-MIDI Data Type: Note
+MIDI Channel: 2
+Note/CC #: 78
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1500,86 +1500,11 @@ Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
 Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_11_Fore.png
-Picture Back Org: 
-Picture Fore Org: Drawbar_Black.png
-Picture Fore W: 34
-Picture Fore H: 277
-Rounded Corners: 6
-Use Other Controller For Value: 
-Sysex: 
-
---- controller ---
-Controller Type: Fader - Vertical
-Controller X Position: 956
-Controller Y Position: 0
-Controller Width: 60
-Controller Height: 495
-OSC Prefix: 
-OSC Data Type: Integer
-OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
-OSC Prefix 2: 
-OSC Data Type 2: Integer
-OSC CC #2 Min Value: 0
-OSC CC #2 Max Value: 1
-OSC Prefix 3: 
-OSC Data Type 3: 
-OSC CC #3 Min Value: 
-OSC CC #3 Max Value: 
-OSC Prefix 4: 
-OSC Data Type 4: 
-OSC CC #4 Min Value: 
-OSC CC #4 Max Value: 
-OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 78
-MIDI Data Type: Note
-MIDI Velocity Sensitive: No
-CC #1 OFF/Min: 0
-CC #1 ON/Max: 127
-MIDI Channel 2: 0
-MIDI Data Type 2: Note
-CC #2: 0
-CC #2 Min: 0
-CC #2 Max: 127
-MIDI Send OFF Command: Yes
-Forecolor R: 150
-Forecolor G: 0
-Forecolor B: 0
-Forecolor O: 255
-Backcolor R: 15
-Backcolor G: 15
-Backcolor B: 15
-Backcolor O: 255
-Textcolor R: 255
-Textcolor G: 255
-Textcolor B: 255
-Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
-Bordercolor O: 255
-Screen Label: 
-Front-Back: 20
-Allow Sliding: No
-Border Width: 0
-Fontname: Arial
-Fontsize: 10
-Fontangle: Horizontal
-Switch to Layout: 
-Direction: Normal
-Touch Mode: Normal
-Show All Incoming MIDI Messages: No
-Show All Incoming OSC Messages: No
-Show Value: No
-Picture Back: 
-Picture Fore: bigdrawbars17_Fader - Vertical_18_Fore.png
+Picture Fore: 
 Picture Back Org: 
 Picture Fore Org: Drawbar_Wht.png
-Picture Fore W: 34
-Picture Fore H: 276
+Picture Fore W: 32
+Picture Fore H: 277
 Rounded Corners: 6
 Use Other Controller For Value: 
 Sysex: 
@@ -1587,9 +1512,9 @@ Sysex:
 --- controller ---
 Controller Type: Label
 Controller X Position: 0
-Controller Y Position: 0
+Controller Y Position: -4
 Controller Width: 1024
-Controller Height: 226
+Controller Height: 227
 OSC Prefix: 
 OSC Data Type: Integer
 OSC Velocity Sensitive: No
@@ -1610,7 +1535,7 @@ OSC CC #4 Max Value:
 OSC Send OFF Command: Yes
 MIDI Channel: 0
 Note/CC #: 0
-MIDI Data Type: Note
+MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 0
 CC #1 ON/Max: 127
@@ -1624,9 +1549,9 @@ Forecolor R: 150
 Forecolor G: 0
 Forecolor B: 0
 Forecolor O: 255
-Backcolor R: 92
-Backcolor G: 10
-Backcolor B: 32
+Backcolor R: 64
+Backcolor G: 0
+Backcolor B: 0
 Backcolor O: 255
 Textcolor R: 255
 Textcolor G: 255
@@ -1637,7 +1562,7 @@ Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
 Screen Label: 
-Front-Back: 21
+Front-Back: 20
 Allow Sliding: No
 Border Width: 0
 Fontname: Arial
@@ -1712,7 +1637,7 @@ Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
 Screen Label: 
-Front-Back: 22
+Front-Back: 21
 Allow Sliding: No
 Border Width: 0
 Fontname: Arial
@@ -1787,7 +1712,7 @@ Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
 Screen Label: 
-Front-Back: 23
+Front-Back: 22
 Allow Sliding: No
 Border Width: 0
 Fontname: Arial
@@ -1799,8 +1724,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: bigdrawbars17_Button - Push_24_Back.png
-Picture Fore: bigdrawbars17_Button - Push_24_Fore.png
+Picture Back: 
+Picture Fore: 
 Picture Back Org: PercVolOff.png
 Picture Fore Org: PercVolOn.png
 Picture Fore W: 49
@@ -1862,6 +1787,81 @@ Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
 Screen Label: 
+Front-Back: 23
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: PercOff.png
+Picture Fore Org: PercOn.png
+Picture Fore W: 49
+Picture Fore H: 90
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 217
+Controller Y Position: 12
+Controller Width: 49
+Controller Height: 90
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 30
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
 Front-Back: 24
 Allow Sliding: No
 Border Width: 0
@@ -1874,10 +1874,10 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: bigdrawbars17_Button - Push_25_Back.png
-Picture Fore: bigdrawbars17_Button - Push_25_Fore.png
-Picture Back Org: PercOff.png
-Picture Fore Org: PercOn .png
+Picture Back: 
+Picture Fore: 
+Picture Back Org: VibGreatOff.png
+Picture Fore Org: VibGreatOn.png
 Picture Fore W: 49
 Picture Fore H: 90
 Rounded Corners: Use Preferences Value
@@ -1886,7 +1886,7 @@ Sysex:
 
 --- controller ---
 Controller Type: Button - Push
-Controller X Position: 217
+Controller X Position: 147
 Controller Y Position: 12
 Controller Width: 49
 Controller Height: 90
@@ -1949,160 +1949,10 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: bigdrawbars17_Button - Push_26_Back.png
-Picture Fore: bigdrawbars17_Button - Push_26_Fore.png
-Picture Back Org: VibGreatlOff.png
-Picture Fore Org: VibGreatlOn.png
-Picture Fore W: 49
-Picture Fore H: 90
-Rounded Corners: Use Preferences Value
-Use Other Controller For Value: 
-Sysex: 
-
---- controller ---
-Controller Type: Button - Push
-Controller X Position: 147
-Controller Y Position: 12
-Controller Width: 49
-Controller Height: 90
-OSC Prefix: 
-OSC Data Type: Integer
-OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
-OSC Prefix 2: 
-OSC Data Type 2: Integer
-OSC CC #2 Min Value: 0
-OSC CC #2 Max Value: 1
-OSC Prefix 3: 
-OSC Data Type 3: 
-OSC CC #3 Min Value: 
-OSC CC #3 Max Value: 
-OSC Prefix 4: 
-OSC Data Type 4: 
-OSC CC #4 Min Value: 
-OSC CC #4 Max Value: 
-OSC Send OFF Command: Yes
-MIDI Channel: 1
-Note/CC #: 30
-MIDI Data Type: CC
-MIDI Velocity Sensitive: No
-CC #1 OFF/Min: 0
-CC #1 ON/Max: 127
-MIDI Channel 2: 0
-MIDI Data Type 2: Note
-CC #2: 0
-CC #2 Min: 0
-CC #2 Max: 127
-MIDI Send OFF Command: Yes
-Forecolor R: 150
-Forecolor G: 0
-Forecolor B: 0
-Forecolor O: 255
-Backcolor R: 80
-Backcolor G: 80
-Backcolor B: 80
-Backcolor O: 255
-Textcolor R: 255
-Textcolor G: 255
-Textcolor B: 255
-Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
-Bordercolor O: 255
-Screen Label: 
-Front-Back: 26
-Allow Sliding: No
-Border Width: 0
-Fontname: Arial
-Fontsize: 10
-Fontangle: Horizontal
-Switch to Layout: 
-Direction: Normal
-Touch Mode: Normal
-Show All Incoming MIDI Messages: No
-Show All Incoming OSC Messages: No
-Show Value: No
-Picture Back: bigdrawbars17_Button - Push_27_Back.png
-Picture Fore: bigdrawbars17_Button - Push_27_Fore.png
+Picture Back: 
+Picture Fore: 
 Picture Back Org: VibSwellOff.png
 Picture Fore Org: VibSwellOn.png
-Picture Fore W: 49
-Picture Fore H: 90
-Rounded Corners: Use Preferences Value
-Use Other Controller For Value: 
-Sysex: 
-
---- controller ---
-Controller Type: Button - Push
-Controller X Position: 77
-Controller Y Position: 12
-Controller Width: 49
-Controller Height: 90
-OSC Prefix: 
-OSC Data Type: Integer
-OSC Velocity Sensitive: No
-OSC CC #1 OFF/Min Value: 0
-OSC CC #1 ON/Max Value: 1
-OSC Prefix 2: 
-OSC Data Type 2: Integer
-OSC CC #2 Min Value: 0
-OSC CC #2 Max Value: 1
-OSC Prefix 3: 
-OSC Data Type 3: 
-OSC CC #3 Min Value: 
-OSC CC #3 Max Value: 
-OSC Prefix 4: 
-OSC Data Type 4: 
-OSC CC #4 Min Value: 
-OSC CC #4 Max Value: 
-OSC Send OFF Command: Yes
-MIDI Channel: 0
-Note/CC #: 0
-MIDI Data Type: Note
-MIDI Velocity Sensitive: No
-CC #1 OFF/Min: 0
-CC #1 ON/Max: 127
-MIDI Channel 2: 0
-MIDI Data Type 2: Note
-CC #2: 0
-CC #2 Min: 0
-CC #2 Max: 127
-MIDI Send OFF Command: Yes
-Forecolor R: 150
-Forecolor G: 0
-Forecolor B: 0
-Forecolor O: 255
-Backcolor R: 80
-Backcolor G: 80
-Backcolor B: 80
-Backcolor O: 255
-Textcolor R: 255
-Textcolor G: 255
-Textcolor B: 255
-Textcolor O: 255
-Bordercolor R: 255
-Bordercolor G: 255
-Bordercolor B: 255
-Bordercolor O: 255
-Screen Label: 
-Front-Back: 27
-Allow Sliding: No
-Border Width: 0
-Fontname: Arial
-Fontsize: 10
-Fontangle: Horizontal
-Switch to Layout: 
-Direction: Normal
-Touch Mode: Normal
-Show All Incoming MIDI Messages: No
-Show All Incoming OSC Messages: No
-Show Value: No
-Picture Back: bigdrawbars17_Button - Push_28_Back.png
-Picture Fore: bigdrawbars17_Button - Push_28_Fore.png
-Picture Back Org: VolumeOff.png
-Picture Fore Org: VolumeOn.png
 Picture Fore W: 49
 Picture Fore H: 90
 Rounded Corners: Use Preferences Value
@@ -2138,7 +1988,7 @@ Note/CC #: 92
 MIDI Data Type: CC
 MIDI Velocity Sensitive: No
 CC #1 OFF/Min: 1
-CC #1 ON/Max: 6
+CC #1 ON/Max: 127
 MIDI Channel 2: 0
 MIDI Data Type 2: Note
 CC #2: 0
@@ -2162,7 +2012,7 @@ Bordercolor G: 47
 Bordercolor B: 47
 Bordercolor O: 255
 Screen Label: 
-Front-Back: 28
+Front-Back: 26
 Allow Sliding: No
 Border Width: 0
 Fontname: Arial
@@ -2174,8 +2024,8 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: bigdrawbars17_Knob_29_Back.png
-Picture Fore: bigdrawbars17_Knob_29_Fore.png
+Picture Back: 
+Picture Fore: 
 Picture Back Org: VibChorus.png
 Picture Fore Org: V&C.png
 Picture Fore W: 81
@@ -2237,6 +2087,156 @@ Bordercolor G: 255
 Bordercolor B: 255
 Bordercolor O: 255
 Screen Label: 
+Front-Back: 27
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: PercHarmSelOn.png
+Picture Fore Org: PercHarmSelOff.png
+Picture Fore W: 49
+Picture Fore H: 90
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 49
+Controller Y Position: 132
+Controller Width: 146
+Controller Height: 60
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 28
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: leslieDRUM.png
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader Center - Horizontal
+Controller X Position: 76
+Controller Y Position: 149
+Controller Width: 95
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 67
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 147
+Backcolor G: 73
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
 Front-Back: 29
 Allow Sliding: No
 Border Width: 0
@@ -2249,12 +2249,687 @@ Touch Mode: Normal
 Show All Incoming MIDI Messages: No
 Show All Incoming OSC Messages: No
 Show Value: No
-Picture Back: bigdrawbars17_Button - Push_30_Back.png
-Picture Fore: bigdrawbars17_Button - Push_30_Fore.png
-Picture Back Org: PercHarmOn.png
-Picture Fore Org: PercHarmOn.png
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: Leslieknob.png
+Picture Fore W: 26
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Label
+Controller X Position: 235
+Controller Y Position: 133
+Controller Width: 146
+Controller Height: 60
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 30
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: leslieback.png
+Picture Fore Org: 
+Picture Fore W: 110
+Picture Fore H: 60
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Fader Center - Horizontal
+Controller X Position: 260
+Controller Y Position: 149
+Controller Width: 95
+Controller Height: 26
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 1
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 147
+Backcolor G: 73
+Backcolor B: 0
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 31
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: Leslieknob.png
+Picture Fore W: 26
+Picture Fore H: 26
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Knob
+Controller X Position: 410
+Controller Y Position: 15
+Controller Width: 92
+Controller Height: 92
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 93
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 1
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 47
+Bordercolor G: 47
+Bordercolor B: 47
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 32
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: CharGainBack.png
+Picture Fore Org: Char&Gain.png
+Picture Fore W: 81
+Picture Fore H: 81
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Knob
+Controller X Position: 708
+Controller Y Position: 116
+Controller Width: 92
+Controller Height: 92
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: 0
+OSC CC #3 Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: 0
+OSC CC #4 Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 91
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 33
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: ReverbBack.png
+Picture Fore Org: Volume.png
+Picture Fore W: 68
+Picture Fore H: 68
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Knob
+Controller X Position: 824
+Controller Y Position: 117
+Controller Width: 92
+Controller Height: 92
+OSC Prefix: 
+OSC Data Type: Float
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 7
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 34
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: VolBack.png
+Picture Fore Org: Volume.png
+Picture Fore W: 65
+Picture Fore H: 65
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Push
+Controller X Position: 77
+Controller Y Position: 12
+Controller Width: 49
+Controller Height: 90
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: 0
+OSC CC #2 Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 1
+Note/CC #: 65
+MIDI Data Type: CC
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: 
+Front-Back: 35
+Allow Sliding: No
+Border Width: 0
+Fontname: Arial
+Fontsize: 10
+Fontangle: Horizontal
+Switch to Layout: 
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: OverDrOff.png
+Picture Fore Org: OverDrOn.png
 Picture Fore W: 49
 Picture Fore H: 90
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 967
+Controller Y Position: 10
+Controller Width: 51
+Controller Height: 28
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: Integer
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value: 0
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value: 1
+OSC Prefix 4: 
+OSC Data Type 4: Integer
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value: 0
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value: 1
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: Home
+Front-Back: 36
+Allow Sliding: No
+Border Width: 1
+Fontname: Arial
+Fontsize: 14
+Fontangle: Horizontal
+Switch to Layout: TransportControl
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 51
+Picture Fore H: 28
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 969
+Controller Y Position: 53
+Controller Width: 49
+Controller Height: 31
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: OSC CC #3 OFF/Min Value:
+OSC CC #3 Max Value: OSC CC #3 ON/Max Value:
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: OSC CC #4 OFF/Min Value:
+OSC CC #4 Max Value: OSC CC #4 ON/Max Value:
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: MIXER
+Front-Back: 37
+Allow Sliding: No
+Border Width: 1
+Fontname: Arial
+Fontsize: 12
+Fontangle: Horizontal
+Switch to Layout: Mixer 1-8
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 49
+Picture Fore H: 31
+Rounded Corners: Use Preferences Value
+Use Other Controller For Value: 
+Sysex: 
+
+--- controller ---
+Controller Type: Button - Momentary
+Controller X Position: 973
+Controller Y Position: 95
+Controller Width: 39
+Controller Height: 31
+OSC Prefix: 
+OSC Data Type: Integer
+OSC Velocity Sensitive: No
+OSC CC #1 OFF/Min Value: 0
+OSC CC #1 ON/Max Value: 1
+OSC Prefix 2: 
+OSC Data Type 2: Integer
+OSC CC #2 Min Value: OSC CC #2 OFF/Min Value: 0
+OSC CC #2 Max Value: OSC CC #2 ON/Max Value: 1
+OSC Prefix 3: 
+OSC Data Type 3: 
+OSC CC #3 Min Value: 
+OSC CC #3 Max Value: 
+OSC Prefix 4: 
+OSC Data Type 4: 
+OSC CC #4 Min Value: 
+OSC CC #4 Max Value: 
+OSC Send OFF Command: Yes
+MIDI Channel: 0
+Note/CC #: 0
+MIDI Data Type: Note
+MIDI Velocity Sensitive: No
+CC #1 OFF/Min: 0
+CC #1 ON/Max: 127
+MIDI Channel 2: 0
+MIDI Data Type 2: Note
+CC #2: 0
+CC #2 Min: 0
+CC #2 Max: 127
+MIDI Send OFF Command: Yes
+Forecolor R: 150
+Forecolor G: 0
+Forecolor B: 0
+Forecolor O: 255
+Backcolor R: 80
+Backcolor G: 80
+Backcolor B: 80
+Backcolor O: 255
+Textcolor R: 255
+Textcolor G: 255
+Textcolor B: 255
+Textcolor O: 255
+Bordercolor R: 255
+Bordercolor G: 255
+Bordercolor B: 255
+Bordercolor O: 255
+Screen Label: M-L
+Front-Back: 38
+Allow Sliding: No
+Border Width: 1
+Fontname: Arial
+Fontsize: 12
+Fontangle: Horizontal
+Switch to Layout: Minilab
+Direction: Normal
+Touch Mode: Normal
+Show All Incoming MIDI Messages: No
+Show All Incoming OSC Messages: No
+Show Value: No
+Picture Back: 
+Picture Fore: 
+Picture Back Org: 
+Picture Fore Org: 
+Picture Fore W: 39
+Picture Fore H: 31
 Rounded Corners: Use Preferences Value
 Use Other Controller For Value: 
 Sysex: 
